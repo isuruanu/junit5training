@@ -13,7 +13,7 @@ public class SampleParameterizedCsvSourceTest {
         assertEquals(capitalized, input.toUpperCase());
     }
 
-    @ParameterizedTest
+    @ParameterizedTest(name = "{1} length is {0}")
     @CsvSource(value = {"4, ABCD", "3, ABC", "0, ''", "1, A"})
     public void testUpperCase(int length, String input) {
         assertEquals(length, input.length());
