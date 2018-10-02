@@ -5,7 +5,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SampleParameterized2Test {
+public class SampleParameterizedCsvSourceTest {
 
     @ParameterizedTest
     @CsvSource(value = {"ABCD, abcd", "ABC, abc", ",", "A, a"})
