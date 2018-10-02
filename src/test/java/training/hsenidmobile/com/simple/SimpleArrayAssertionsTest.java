@@ -1,4 +1,4 @@
-package training.hsenidmobile.com;
+package training.hsenidmobile.com.simple;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

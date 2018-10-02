@@ -1,4 +1,4 @@
-package training.hsenidmobile.com;
+package training.hsenidmobile.com.exception;
 
 import org.junit.jupiter.api.Test;
 

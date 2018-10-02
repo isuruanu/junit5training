@@ -1,4 +1,4 @@
-package training.hsenidmobile.com;
+package training.hsenidmobile.com.simple;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
