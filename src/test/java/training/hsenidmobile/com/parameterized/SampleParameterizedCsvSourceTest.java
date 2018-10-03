@@ -1,5 +1,6 @@
 package training.hsenidmobile.com.parameterized;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -13,7 +14,8 @@ public class SampleParameterizedCsvSourceTest {
         assertEquals(capitalized, input.toUpperCase());
     }
 
-    @ParameterizedTest(name = "{1} length is {0}")
+    @DisplayName("Checking length() method of String class")
+    @ParameterizedTest(name = "Assertion # {index} => Length of {1} should be {0}")
     @CsvSource(value = {"4, ABCD", "3, ABC", "0, ''", "1, A"})
     public void testUpperCase(int length, String input) {
         assertEquals(length, input.length());
